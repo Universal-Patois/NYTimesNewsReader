@@ -1,13 +1,6 @@
-.single-article {
+.article-description-container {
   padding: 5px;
   border: 1px solid red;
   margin-bottom: 1em;
-}
-
-.articles {
   margin-top: 1em;
-}
-
-.drop-down {
-  margin-bottom: 1em;
 }

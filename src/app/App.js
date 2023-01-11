@@ -6,6 +6,9 @@ import { newsTopics } from '../assets/newsTopics';
 import ArticlesContainer from '../articlesContainer/ArticlesContainer';
 import ArticleDescription from "../articleDescription/ArticleDescription";
 import './App.css';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 function App() {
 
@@ -28,17 +31,19 @@ function App() {
 
   return (
     <main>
-      <h1>New York Times: News Reader</h1>
-      <DropdownButton id="dropdown-topic-button" title="Choose a Topic" drop={"down-centered"}>
-        {newsTopics.map((topic) => (
-          <Dropdown.Item value={topic} key={topic} onClick={(event) => sortArticles(event)} >{topic}</Dropdown.Item>
-          )
-        )}
-      </DropdownButton>
-      <Routes>
-        <Route path='/article/:id' element={<ArticleDescription articles={articles} />} />
-        <Route path="/" element={<ArticlesContainer articles={articles} error={error} />} />
-      </Routes>
+      <Container>
+        <Row>
+          <Col>
+            <center>
+              <h1>New York Times: News Reader</h1>
+            </center>
+            <Routes>
+              <Route path='/article/:id' element={<ArticleDescription articles={articles} />} />
+              <Route path="/" element={<ArticlesContainer sortArticles={sortArticles} articles={articles} error={error} />} />
+            </Routes>
+          </Col>
+        </Row>
+      </Container>
     </main>
   );
 }

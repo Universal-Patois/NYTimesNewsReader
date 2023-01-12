@@ -1,8 +1,6 @@
 import { React, useState, useEffect } from 'react';
-import { Dropdown, DropdownButton } from 'react-bootstrap';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import { fetchTopStories, fetchNewsTopic } from '../utilities/apiCalls';
-import { newsTopics } from '../assets/newsTopics';
 import ArticlesContainer from '../articlesContainer/ArticlesContainer';
 import ArticleDescription from "../articleDescription/ArticleDescription";
 import './App.css';
@@ -30,16 +28,17 @@ function App() {
   }
 
   return (
-    <main>
+    <main className='main' >
       <Container>
         <Row>
           <Col>
             <center>
-              <h1>New York Times: News Reader</h1>
+              <h1 className='heading' >New York Times: News Reader</h1>
             </center>
             <Routes>
               <Route path='/article/:id' element={<ArticleDescription articles={articles} />} />
               <Route path="/" element={<ArticlesContainer sortArticles={sortArticles} articles={articles} error={error} />} />
+              <Route path='*' element={<Navigate to="/" replace /> } />
             </Routes>
           </Col>
         </Row>

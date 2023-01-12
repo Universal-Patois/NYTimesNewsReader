@@ -1,7 +1,7 @@
 import React from "react";
-import Articles from "../articles/Articles"
+import Articles from "../articles/Articles";
 
-const ArticlesContainer = ({articles, error, sortArticles}) => {
+const ArticlesContainer = ({ articles, error, sortArticles }) => {
 
   return (
     <div>
@@ -14,4 +14,4 @@ const ArticlesContainer = ({articles, error, sortArticles}) => {
   )
 }
 
-export default ArticlesContainer
+export default ArticlesContainer;

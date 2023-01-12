@@ -1,7 +1,7 @@
 import React from "react";
 import dayjs from "dayjs";
 import { Link, useParams } from "react-router-dom";
-import "./ArticleDescription.css"
+import "./ArticleDescription.css";
 
 const ArticleDescription = ({ articles }) => {
 
@@ -12,11 +12,18 @@ const ArticleDescription = ({ articles }) => {
   return (
     <div className="article-description-container" >
       <center>
-        <img src={articleDetails.multimedia[1].url} alt={articleDetails.abstract} />
+        <picture>
+          <img 
+          src={articleDetails.multimedia[1].url} 
+          srcSet={articleDetails.multimedia[2].url}
+          sizes="(max-width: 300px) 300px" 
+          alt={articleDetails.abstract} 
+          />
+        </picture>
         <h2 className="article-text" >{articleDetails.title}</h2>
         <h3 className="article-text" >{articleDetails.abstract}</h3>
         <h4 className="article-text" >{articleDetails.byline}</h4>
-        <a href={articleDetails.url} target="_blank">
+        <a href={articleDetails.url} target="_blank" rel="noreferrer">
           <button className="article-button" >Read the full article</button>
         </a>
         <h4 className="article-text" >Last Updated: {dayjs(articleDetails.updated_date).format('MMMM-DD-YYYY')}</h4>
@@ -29,4 +36,4 @@ const ArticleDescription = ({ articles }) => {
   )
 }
 
-export default ArticleDescription
+export default ArticleDescription;

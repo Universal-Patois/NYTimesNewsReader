@@ -1,0 +1,126 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2023-01-12T13:24:20-05:00",
+  "num_results": 2,
+  "results": [
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "How Biden’s Discovery of Classified Files Compares With the Trump Case",
+      "abstract": "The Justice Department is scrutinizing how both presidents came to have classified records after they left office. But there are major differences.",
+      "url": "https://www.nytimes.com/2023/01/10/us/politics/trump-biden-classified-documents.html",
+      "uri": "nyt://article/cb553421-f884-5485-ab85-6ec65e8d8707",
+      "byline": "By Charlie Savage",
+      "item_type": "Article",
+      "updated_date": "2023-01-12T13:08:18-05:00",
+      "created_date": "2023-01-10T19:07:25-05:00",
+      "published_date": "2023-01-10T19:07:25-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [
+        "Classified Information and State Secrets",
+        "Search and Seizure",
+        "United States Politics and Government"
+      ],
+      "org_facet": [
+        "National Archives and Records Administration",
+        "Mar-a-Lago (Palm Beach, Fla)",
+        "Federal Bureau of Investigation",
+        "Justice Department"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Trump, Donald J",
+        "Garland, Merrick B"
+      ],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/01/10/multimedia/10dc-explainer-jcwf/10dc-explainer-jcwf-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White House records are supposed to go to the National Archives when an administration leaves office.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/10/multimedia/10dc-explainer-jcwf/10dc-explainer-jcwf-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White House records are supposed to go to the National Archives when an administration leaves office.",
+          "copyright": "Doug Mills/The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/10/multimedia/10dc-explainer-jcwf/10dc-explainer-jcwf-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "White House records are supposed to go to the National Archives when an administration leaves office.",
+          "copyright": "Doug Mills/The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3ZqwZ3k"
+    },
+    {
+      "section": "us",
+      "subsection": "politics",
+      "title": "Biden says he takes classified documents seriously and is cooperating with the Justice Department.",
+      "abstract": "",
+      "url": "https://www.nytimes.com/live/2023/01/12/us/biden-classified-documents/biden-says-he-takes-classified-documents-seriously-and-is-cooperating-with-the-justice-department",
+      "uri": "nyt://article/ae710d6f-6833-54de-93b2-527819fce72b",
+      "byline": "By Jim Tankersley",
+      "item_type": "Article",
+      "updated_date": "2023-01-12T11:59:40-05:00",
+      "created_date": "2023-01-12T11:59:40-05:00",
+      "published_date": "2023-01-12T11:59:40-05:00",
+      "material_type_facet": "",
+      "kicker": "",
+      "des_facet": [],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "multimedia": [
+        {
+          "url": "https://static01.nyt.com/images/2023/01/12/multimedia/12biden-docs-speaks-kbgm/12biden-docs-speaks-kbgm-superJumbo.jpg",
+          "format": "Super Jumbo",
+          "height": 1365,
+          "width": 2048,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Joe Biden delivering remarks on the economy in Washington, D.C. on Thursday.",
+          "copyright": "Sarah Silbiger for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/12/multimedia/12biden-docs-speaks-kbgm/12biden-docs-speaks-kbgm-threeByTwoSmallAt2X.jpg",
+          "format": "threeByTwoSmallAt2X",
+          "height": 400,
+          "width": 600,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Joe Biden delivering remarks on the economy in Washington, D.C. on Thursday.",
+          "copyright": "Sarah Silbiger for The New York Times"
+        },
+        {
+          "url": "https://static01.nyt.com/images/2023/01/12/multimedia/12biden-docs-speaks-kbgm/12biden-docs-speaks-kbgm-thumbLarge.jpg",
+          "format": "Large Thumbnail",
+          "height": 150,
+          "width": 150,
+          "type": "image",
+          "subtype": "photo",
+          "caption": "President Joe Biden delivering remarks on the economy in Washington, D.C. on Thursday.",
+          "copyright": "Sarah Silbiger for The New York Times"
+        }
+      ],
+      "short_url": "https://nyti.ms/3W03lz6"
+    }
+  ]
+}

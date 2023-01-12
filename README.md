@@ -78,11 +78,11 @@ npm cypress run
 
 ### Getting Article Details
 
-![]()
+![Article Details](src/assets/to-details.gif)
 
 ### Link to Article NY Times Website
 
-![]()
+![To Website](src/assets/to-details.gif)
 
 ### Back to Landing Page
 

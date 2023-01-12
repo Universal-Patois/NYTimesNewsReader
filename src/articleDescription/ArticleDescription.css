@@ -1,6 +1,27 @@
+body{
+margin: 0;
+padding: 0;
+background-color: #272700;
+}
+
 .article-description-container {
-  padding: 5px;
-  border: 1px solid red;
+  padding: 8px;
+  border: 2px solid black;
   margin-bottom: 1em;
   margin-top: 1em;
 }
+
+.article-text {
+ color: #959300;
+}
+
+.article-button {
+  background-color: #585a00;
+  border-radius: 5%;
+}
+
+.color1 {color: #000000;}
+.color2 {color: #272700;}
+.color3 {color: #585a00;}
+.color4 {color: #959300;}
+.color5 {color: #dcd300;}

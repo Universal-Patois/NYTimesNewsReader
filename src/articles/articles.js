@@ -23,7 +23,7 @@ const Articles = ({ articles, sortArticles }) => {
               <img src={article.multimedia[2].url} alt={article.abstract} />
 
             }
-            <h2>{article.title}</h2>
+            <h2 className="article-title" >{article.title}</h2>
           </Link>
           <h4>Subjects: {article.des_facet.map(subject => subject + '. ')}</h4>
         </center>
@@ -34,7 +34,7 @@ const Articles = ({ articles, sortArticles }) => {
   return (
     <div className="articles">
       <center className="drop-down" >
-        <DropdownButton id="dropdown-topic-button" title="Choose a Topic" drop={"down-centered"}>
+        <DropdownButton variant="secondary" menuVariant="dark"id="dropdown-topic-button" title="Choose a Topic" drop={"down-centered"}>
           {newsTopics.map((topic) => (
             <Dropdown.Item value={topic} key={topic} onClick={(event) => sortArticles(event)} >{topic}</Dropdown.Item>
           ))}

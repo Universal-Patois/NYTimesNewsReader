@@ -1,13 +1,13 @@
 import React from "react";
 import Articles from "../articles/Articles"
 
-const ArticlesContainer = ({articles, error}) => {
+const ArticlesContainer = ({articles, error, sortArticles}) => {
 
   return (
     <div>
       {error ? <p>{error}</p> :
         <>
-          <Articles articles={articles} />
+          <Articles articles={articles} sortArticles={sortArticles} />
         </>
       }
     </div>

@@ -86,11 +86,13 @@ npm cypress run
 
 ### Back to Landing Page
 
-![]()
+![Back Button](src/assets/back-button.gif)
 
 ### Responsive Layout
 
-![]()
+![Responsive Layout](src/assets/responsive-layout.gif)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Future Features
 

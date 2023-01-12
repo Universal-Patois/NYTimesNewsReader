@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from "uuid";
 import { Link } from "react-router-dom";
 import { Dropdown, DropdownButton } from 'react-bootstrap';
 import { newsTopics } from '../assets/newsTopics';
-import "./Articles.css"
+import "./Articles.css";
 
 
 const Articles = ({ articles, sortArticles }) => {
@@ -19,7 +19,7 @@ const Articles = ({ articles, sortArticles }) => {
         <center>
           <Link to={`/article/${article.id}`}>
             {!article.multimedia ?
-              <img src="../assets/statue-of-liberty.png" alt="New York Times logo" /> :
+              <img src="../assets/new-york-times-logo.png" alt="New York Times Logo" /> :
               <img src={article.multimedia[2].url} alt={article.abstract} />
 
             }
@@ -34,7 +34,7 @@ const Articles = ({ articles, sortArticles }) => {
   return (
     <div className="articles">
       <center className="drop-down" >
-        <DropdownButton variant="secondary" menuVariant="dark"id="dropdown-topic-button" title="Choose a Topic" drop={"down-centered"}>
+        <DropdownButton variant="secondary" menuVariant="dark" id="dropdown-topic-button" title="Choose a Topic" drop={"down-centered"}>
           {newsTopics.map((topic) => (
             <Dropdown.Item value={topic} key={topic} onClick={(event) => sortArticles(event)} >{topic}</Dropdown.Item>
           ))}
@@ -45,4 +45,4 @@ const Articles = ({ articles, sortArticles }) => {
   )
 }
 
-export default Articles
+export default Articles;

@@ -5,7 +5,7 @@ export const fetchTopStories = async () => {
       "Accept": "application/json"
     },
   })
-  if(!response.ok) {
+  if (!response.ok) {
     throw Error(response.status + ":" + response.statusText)
   }
   return response.json()
@@ -18,7 +18,7 @@ export const fetchNewsTopic = async (topic) => {
       "Accept": "application/json"
     },
   })
-  if(!response.ok) {
+  if (!response.ok) {
     throw Error(response.status + ":" + response.statusText)
   }
   return response.json()

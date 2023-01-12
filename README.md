@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Welcome to New York Times: News Reader 👋
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Technologies](#technologies)
+- [Deployed Link](#🏠-deployed-link)
+- [Set-up and Useage](#set-up-and-usage)
+- [Features](#features)
+- [Future Features](#future-features)
+- [Organization](#organization)
+- [Author](#author)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> New York Times: News Reader displays top stories headlines from the New York Times and allows the user to search for stories by topics. Each headline can be clicked for a more detailed information on the story and a link to the article on the New York Times website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
+<img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" />
+<img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e" />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🏠 [Deployed Link](https://vercel.com/new)
 
-### `npm run build`
+## :wrench: Set-up and Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- To run this application locally
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- npm
 
-### `npm run eject`
+  ```sh
+  npm install npm@latest -g
+  ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Installation
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Clone the repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```sh
+   git clone https://github.com/Universal-Patois/NYTimesNewsReader
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Install NPM packages
 
-## Learn More
+   ```sh
+   npm install
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Usage
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm start
+```
 
-### Code Splitting
+### Run tests
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```sh
+npm cypress run
+```
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Features
 
-### Making a Progressive Web App
+### Landing Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+![Landing Page](src/assets/landing-page.gif)
 
-### Advanced Configuration
+### Selecting a Topic
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![Topic Selection](src/assets/topic-selection.mp4)
 
-### Deployment
+### Getting Article Details
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![]()
 
-### `npm run build` fails to minify
+### Link to Article NY Times Website
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![]()
+
+### Back to Landing Page
+
+![]()
+
+### Responsive Layout
+
+![]()
+
+## Future Features
+
+- Pagination of articles
+
+## Organization
+
+- Project Board: [Github Projects](https://github.com/users/Universal-Patois/projects/7)
+- Wire Frame: [Miro](https://miro.com/app/board/uXjVPzssfjg=/)
+
+## Author
+
+👤 **Andrew Knapick**
+
+- Github: [@Universal-Patois](https://github.com/Universal-Patois)
+- LinkedIn: [@andrew-knapick](https://linkedin.com/in/andrew-knapick)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>

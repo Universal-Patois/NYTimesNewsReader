@@ -1,7 +1,7 @@
-body{
-margin: 0;
-padding: 0;
-background-color: #272700;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #272700;
 }
 
 .article-description-container {
@@ -12,7 +12,7 @@ background-color: #272700;
 }
 
 .article-text {
- color: #959300;
+  color: #959300;
 }
 
 .article-button {
@@ -20,8 +20,22 @@ background-color: #272700;
   border-radius: 5%;
 }
 
-.color1 {color: #000000;}
-.color2 {color: #272700;}
-.color3 {color: #585a00;}
-.color4 {color: #959300;}
-.color5 {color: #dcd300;}
+.color1 {
+  color: #000000;
+}
+
+.color2 {
+  color: #272700;
+}
+
+.color3 {
+  color: #585a00;
+}
+
+.color4 {
+  color: #959300;
+}
+
+.color5 {
+  color: #dcd300;
+}

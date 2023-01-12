@@ -38,7 +38,7 @@ function App() {
             <Routes>
               <Route path='/article/:id' element={<ArticleDescription articles={articles} />} />
               <Route path="/" element={<ArticlesContainer sortArticles={sortArticles} articles={articles} error={error} />} />
-              <Route path='*' element={<Navigate to="/" replace /> } />
+              <Route path='*' element={<Navigate to="/" replace />} />
             </Routes>
           </Col>
         </Row>

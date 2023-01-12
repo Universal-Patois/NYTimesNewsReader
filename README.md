@@ -24,7 +24,7 @@
 <img src="https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white" />
 <img src="https://img.shields.io/badge/-cypress-%23E5E5E5?style=for-the-badge&logo=cypress&logoColor=058a5e" />
 
-### 🏠 [Deployed Link](https://vercel.com/new)
+### 🏠 [Deployed Link](https://ny-times-news-reader-2mkew09ee-universal-patois.vercel.app/)
 
 ## :wrench: Set-up and Usage
 

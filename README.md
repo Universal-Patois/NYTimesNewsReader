@@ -74,7 +74,7 @@ npm cypress run
 
 ### Selecting a Topic
 
-![Topic Selection](src/assets/topic-selection.mp4)
+![Topic Selection](src/assets/topic-selection.gif)
 
 ### Getting Article Details
 
